@@ -129,7 +129,7 @@ img{
     font-weight: bold;
 }
 
-/*      Cli    */
+/* cli */
 .cli .grid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
