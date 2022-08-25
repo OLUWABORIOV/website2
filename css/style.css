@@ -115,13 +115,13 @@ img{
 
 /* Stats */
 .stats {
-    padding: 100px;
+    padding-top: 100px;
 }
 .stats-heading {
-    min-width: 500px;
+    max-width: 500px;
     margin: auto;
 }
-.stats_grid {
+.stats .grid h3 {
     font-size: 35px;
 }
 .stats .grid p {
