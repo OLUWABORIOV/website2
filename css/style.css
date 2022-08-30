@@ -4,7 +4,9 @@
     --primary-color: #047aed;
     --secondary-color: #1c3fa8; 
     --dark-color: #002240;  
-    --light-color: #f4f4f4;  
+    --light-color: #f4f4f4; 
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
 }
 
 *{
@@ -36,6 +38,14 @@ p {
 img{
     width: 100%;
 }
+
+code, pre {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
 /* NavBar */
 .navbar{
     background-color: var(--primary-color);
@@ -198,6 +208,17 @@ img{
     align-items: flex-start;
 }
 
+.docs-main nav li {
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px #ccc solid;
+}
+
+.docs-main a:hover {
+    font-weight: bold;
+}
+
 /* Footer */
 .footer .social a {
   margin: 0 10px;
@@ -233,7 +254,7 @@ img{
         grid-row: 1;
 }
 
-/* Mobile*/
+/* Mobile */
 @media(max-width: 500px) {
     .navbar {
         height: 110px;
